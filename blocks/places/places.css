@@ -1,0 +1,25 @@
+.places {
+  padding-top: 64px;
+}
+
+@media screen and (min-width:768px) {
+  .places {
+    padding-top: 88px;
+    width: calc(100% - 48px);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .places {
+    padding-top: 92px;
+    width: calc(100% - 96px);
+    max-width: 984px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .places {
+    width: calc(100% - 296px);    
+  }
+}

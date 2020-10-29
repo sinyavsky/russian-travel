@@ -1,0 +1,27 @@
+.intro {
+  margin: 0 auto;
+  width: calc(100% - 32px);
+  padding-top: 64px;
+}
+
+@media screen and (min-width:768px) {
+  .intro {
+    padding-top: 88px;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .intro {
+    padding-top: 92px;
+    width: calc(100% - 96px);
+    max-width: 984px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .intro {
+    width: calc(100% - 296px);
+    
+  }
+}
