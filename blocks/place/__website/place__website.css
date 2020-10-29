@@ -4,7 +4,7 @@
 
 @media screen and (min-width:768px) {
   .place__website {
-    display: block;    
+    display: block;
     align-self: end;
   }
 }
