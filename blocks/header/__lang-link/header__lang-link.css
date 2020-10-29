@@ -1,16 +1,12 @@
 .header__lang-link {
-  margin-right: 18px;
+  display:inline-block;
+  margin-left: 18px;
   color: #fff;
   font-size: 18px;
   line-height: 1.11;
   text-decoration: none;
   transition: opacity .2s ease;
 }
-
-.header__lang-link:last-child {
-  margin-right: 0;
-}
-
 .header__lang-link:hover {
   opacity: .8;
 }

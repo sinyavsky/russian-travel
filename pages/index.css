@@ -1,9 +1,5 @@
 @import url(../vendor/normalize.css);
 
-/*
-  не уверен, что шрифты правильно так подключать. Сначала хотел оставить их в vendor, но в чеклисте
-  речь идет о папке fonts
-*/
 @import url(../fonts/inter.css);
 
 @import url(../blocks/page/page.css);
@@ -18,7 +14,6 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__image-cover/lead__image-cover.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
@@ -26,6 +21,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__numbers/intro__numbers.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -43,7 +39,6 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__link-inner/cover__link-inner.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
